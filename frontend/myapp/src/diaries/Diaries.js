@@ -19,6 +19,7 @@ const Diaries = () => {
       alignItems={"center"}
     >
       {" "}
+      <h1 style={{fontSize:'40px',marginBottom:'20px'}}>Travel Diaries</h1>
       {posts &&
         posts.map((item, index) => (
           <DiaryItem
